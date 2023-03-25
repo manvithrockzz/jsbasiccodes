@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+</head>
+<body>
+    <h1 class="hello">Hello</h1>
+    <!-- <button class="clickme">Click me</button> -->
+    <button type="button" onclick="myfun()">Click</button>
+   
+    <!-- <ul class="namelist">
+
+        <li>Manvith</li>
+        <li>Rocky</li>
+        <li>Venkatsai</li>
+        <li>Koushik</li>
+        <li>Tarun</li>
+        <li>Nidish</li>
+        <li>Rodddh</li>
+    </ul> -->
+
+    <h2 id="demo"> </h2>
+
+    
+
+    
+
+<script src="main.js"> 
+var a=10
+function first_func(){
+    var b=20;
+    function second_func(){
+        var c=20+a+b
+        return c
+    }
+    return second_func();
+}
+var sum=first_func()
+document.write("the sum is"+sum+'<br>')
+</script>
+</body>
+</html>

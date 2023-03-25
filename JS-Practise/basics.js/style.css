@@ -1,0 +1,12 @@
+.change{
+    color: lightblue;
+    font-size: 100px;
+    border: 10px solid black;
+}
+
+
+.button{
+    border-radius: 25px;
+    border-style: dotted;
+    border-color: orangered;
+}
